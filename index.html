@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega College</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container d-flex">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo.png" alt="Mega College Logo" height="85px">
+                </a>
+            </div>
+            <button class="menu-toggle" id="menuToggleButton" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="site-header-right d-flex">
+                <div class="call-us">
+                    <a href="#" class="d-flex">
+                        <img src="./images/call.svg" alt="Call">
+                        <div class="call-us-info d-flex">
+                            <span>Call us</span>
+                            <strong>01-0123456</strong>
+                        </div>
+                    </a>
+                </div>
+                <div class="live">
+                    <a href="#" class="d-flex flex-column">
+                        <span>We are Live</span>
+                        <strong>Talk with us</strong>
+                    </a>
+                </div>
+                <a href="#" class="btn">
+                    Apply Online
+                </a>
+
+            </div>
+        </div><!-- container end -->
+    </header><!-- site-header end -->
+
+    <nav id="siteNavigation" class="site-navigation">
+        <div class="container">
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Academic Programs</a></li>
+                <li><a href="#">Academic Calendar</a></li>
+                <li><a href="#">Activities</a></li>
+            </ul>
+        </div><!-- container end -->
+    </nav><!-- site-navigation end -->
+
+    <section class="home-hero-banner d-flex align-center" style="background-image: url('./images/banner.jpg');">
+        <div class="container">
+            <div class="hero-content d-flex flex-column">
+                <div class="hero-heading d-flex flex-column">
+                    <span>Unlock your future</span>
+                    <h2>Apply Now for BCA</h2>
+                </div>
+                <p>Apply now for our Bachelor of Computer Applications (BCA) program and step into a world of endless
+                    possibilities in technology. Start your journey towards a successful career today!</p>
+                <div class="btn-wrapper">
+                    <a href="#" class="btn">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="column-wrapper">
+                <div class="col-3">
+                    <div class="fact">
+                        <strong>25</strong>
+                        <span>Undergraduate Programs</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fact">
+                        <strong>90%</strong>
+                        <span>Graduation Rate</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fact">
+                        <strong>10+</strong>
+                        <span>Indoor and Outdoor Sport Facilities</span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fact">
+                        <strong>2500+</strong>
+                        <span>Yearly Student Enrollment</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="program-container">
+            <div class="container">
+                <div class="tab-button-wrapper link-wrapper text-center">
+                    <a href="" tab-id="tab1" class="btn btn-primary tab-btn active">Higher Secondary</a>
+                    <a href="" tab-id="tab2" class="btn btn-primary tab-btn ">Under Graduate</a>
+                    <a href="" tab-id="tab3" class="btn btn-primary tab-btn ">Graduate Secondary</a>
+                </div>
+                <div class="tab-content column-wrapper align-center active" tab-id="tab1">
+                    <div class="col-5">
+                        <img src="images/bba.jpg" alt="BBA">
+                    </div>
+                    <div class="col-7">
+                        <h3>Higher Secondary Programs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.
+                        </p>
+                        <div class="link-wrapper">
+                            <a href="#" class="btn btn-outline">Science</a>
+                            <a href="#" class="btn btn-outline">Management</a>
+                            <a href="#" class="btn btn-outline">Humanities</a>
+                            <a href="#" class="btn btn-outline">Law</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content column-wrapper align-center" tab-id="tab2">
+                    <div class="col-5">
+                        <img src="images/bca.png" alt="BBA">
+                    </div>
+                    <div class="col-7">
+                        <h3>Undergraduate Programs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.
+                        </p>
+                        <div class="link-wrapper">
+                            <a href="#" class="btn btn-outline">BCA</a>
+                            <a href="#" class="btn btn-outline">BBM</a>
+                            <a href="#" class="btn btn-outline">BBS</a>
+                            <a href="#" class="btn btn-outline">BSW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content column-wrapper align-center" tab-id="tab3">
+                    <div class="col-5">
+                        <img src="images/bbs.jpg" alt="BBS">
+                    </div>
+                    <div class="col-7">
+                        <h3>Graduate Programs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.
+                        </p>
+                        <div class="link-wrapper">
+                            <a href="#" class="btn btn-outline">MBA</a>
+                            <a href="#" class="btn btn-outline">MBS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        function toggleMenu() {
+            var toggle = document.getElementById("siteNavigation");
+            if (toggle.style.display === "block") {
+                toggle.style.display = "none";
+            } else {
+                toggle.style.display = "block";
+            }
+        }
+
+
+        $(document).ready(function () {
+            $('.tab-btn').click(function () {
+                $(".tab-content").removeClass('active');
+                $(".tab-content[tab-id='" + $(this).attr('tab-id') + "']").addClass("active");
+                $(".tab-btn").removeClass('active');
+                $(this).parent().find(".tab-btn").addClass('active');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
